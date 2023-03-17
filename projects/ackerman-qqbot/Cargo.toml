@@ -12,21 +12,21 @@ edition = "2021"
 
 [dependencies]
 url = "2.3.1"
-chrono = { version = "0.4.22", features = ["serde"] }
-serde = { version = "1.0.147", features = ["derive"] }
-serde_json = "1.0.87"
-toml = "0.5.9"
+chrono = { version = "0.4.24", features = ["serde"] }
+serde = { version = "1.0.156", features = ["derive"] }
+serde_json = "1.0.94"
+toml = "0.7.3"
 num = "0.4.0"
-random = "0.12.2"
+random = "0.13.2"
 log = "0.4.17"
-async-trait = "0.1.58"
-image = "0.24.4"
+async-trait = "0.1.66"
+image = "0.24.5"
 imageproc = "0.23.0"
-tokio = { version = "1.21.2", features = ["full"] }
-tokio-tungstenite = { version = "0.17.2", features = ["native-tls"] }
-reqwest = { version = "0.11.12", features = ["json", "multipart"] }
-futures-util = "0.3.25"
-bitflags = "2.0.0-rc.1"
+tokio = { version = "1.26.0", features = ["full"] }
+tokio-tungstenite = { version = "0.18.0", features = ["native-tls"] }
+reqwest = { version = "0.11.14", features = ["json", "multipart"] }
+futures-util = "0.3.27"
+bitflags = "2.0.1"
 
 [dev-dependencies]
 
